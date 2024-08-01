@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\glad">
+      <UniqueIdentifier>{daa56713-0327-4c85-abe6-1fadb888d98d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Shader">
+      <UniqueIdentifier>{c9461b9d-c636-4edf-8b0f-173de1584628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Texture">
+      <UniqueIdentifier>{4b1214ed-e720-4049-86b9-63841c5e55b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Actor">
+      <UniqueIdentifier>{8d99c23e-e5dc-4fa3-88d2-8bbedde6bba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Actor\Tank">
+      <UniqueIdentifier>{1b9bd197-8dc6-4dce-91d0-5118f189219a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Actor\Item">
+      <UniqueIdentifier>{332e045d-103b-4b37-88bd-24d85dcc6e1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Actor\StaticObject">
+      <UniqueIdentifier>{2801678a-7236-4480-9400-1e1d09a1de18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{4c68c977-1c7d-4469-bf9e-839724c5f8ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Actor\UI">
+      <UniqueIdentifier>{f0e5aec3-adfe-491e-a6d6-56bedf371cfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\imgui">
+      <UniqueIdentifier>{29d23595-01d3-4c51-a26d-012f1efc6ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Actor\Operator">
+      <UniqueIdentifier>{033711d3-410f-4d4f-a091-b48b41274734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Collision">
+      <UniqueIdentifier>{ad50776c-d0ea-48c6-9c57-a42dd54971ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Audio">
+      <UniqueIdentifier>{0dc99591-d87e-42cb-a36a-7f6977b145aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Actor\Effect">
+      <UniqueIdentifier>{eddf6bff-06f7-4c7c-a749-a9a2561c3bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Actor\Sprite">
+      <UniqueIdentifier>{7e8bca49-7db3-4242-8729-f9c8a2071d8d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\glad\src\glad.c">
+      <Filter>ソース ファイル\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GLContext.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Primitive.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ProgramPipeline.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Samlper.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Texture.cpp">
+      <Filter>ソース ファイル\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameCursor.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameEngine.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\Actor.cpp">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\Item\Bullet.cpp">
+      <Filter>ソース ファイル\Actor\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Stage\Stage.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\StaticObject\Map.cpp">
+      <Filter>ソース ファイル\Actor\StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\Tank\Tank.cpp">
+      <Filter>ソース ファイル\Actor\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\Scene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\Title.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\MainGame.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\StaticObject\RoadCloased.cpp">
+      <Filter>ソース ファイル\Actor\StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SceneManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\UI\Button.cpp">
+      <Filter>ソース ファイル\Actor\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Camera.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\imgui\imgui.cpp">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\imgui\imgui_demo.cpp">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\imgui\imgui_draw.cpp">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\imgui\imgui_impl_glfw.cpp">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\imgui\imgui_impl_opengl3.cpp">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\imgui\imgui_tables.cpp">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\imgui\imgui_widgets.cpp">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\UI\UI.cpp">
+      <Filter>ソース ファイル\Actor\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\UI\Image.cpp">
+      <Filter>ソース ファイル\Actor\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Shader\FramebufferObject.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Intersect.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\Operator\Enemy.cpp">
+      <Filter>ソース ファイル\Actor\Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\Operator\NonPlayerCharacter.cpp">
+      <Filter>ソース ファイル\Actor\Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\Operator\Player.cpp">
+      <Filter>ソース ファイル\Actor\Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Collision\Collision.cpp">
+      <Filter>ソース ファイル\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\StaticObject\House1.cpp">
+      <Filter>ソース ファイル\Actor\StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\StaticObject\House2.cpp">
+      <Filter>ソース ファイル\Actor\StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\StaticObject\House3.cpp">
+      <Filter>ソース ファイル\Actor\StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\StaticObject\House4.cpp">
+      <Filter>ソース ファイル\Actor\StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\StaticObject\House5.cpp">
+      <Filter>ソース ファイル\Actor\StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\StaticObject\House6.cpp">
+      <Filter>ソース ファイル\Actor\StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\StaticObject\House7.cpp">
+      <Filter>ソース ファイル\Actor\StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\StaticObject\House8.cpp">
+      <Filter>ソース ファイル\Actor\StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\Tutorial.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Audio\Audio.cpp">
+      <Filter>ソース ファイル\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\Effect\Explodion.cpp">
+      <Filter>ソース ファイル\Actor\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\UI\Sprite.cpp">
+      <Filter>ソース ファイル\Actor\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\Operator\Enemy1.cpp">
+      <Filter>ソース ファイル\Actor\Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\Operator\Enemy2.cpp">
+      <Filter>ソース ファイル\Actor\Operator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Res\FragmentLighting.frag">
+      <Filter>ソース ファイル\Shader</Filter>
+    </None>
+    <None Include="Res\FragmentLighting.vert">
+      <Filter>ソース ファイル\Shader</Filter>
+    </None>
+    <None Include="Res\Simple.frag">
+      <Filter>ソース ファイル\Shader</Filter>
+    </None>
+    <None Include="Res\Simple.vert">
+      <Filter>ソース ファイル\Shader</Filter>
+    </None>
+    <None Include="Res\VertexLightting.vert">
+      <Filter>ソース ファイル\Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\glad\include\glad\glad.h">
+      <Filter>ソース ファイル\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\glad\include\KHR\khrplatform.h">
+      <Filter>ソース ファイル\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GLContext.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Primitive.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ProgramPipeline.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Sampler.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Texture.h">
+      <Filter>ソース ファイル\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameCursor.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameEngine.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\Actor.h">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\Item\Bullet.h">
+      <Filter>ソース ファイル\Actor\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Stage\Stage.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\StaticObject\Map.h">
+      <Filter>ソース ファイル\Actor\StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameManager.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\Tank\Tank.h">
+      <Filter>ソース ファイル\Actor\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\Scene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\Title.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\MainGame.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\StaticObject\RoadCloased.h">
+      <Filter>ソース ファイル\Actor\StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SceneManager.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\UI\Button.h">
+      <Filter>ソース ファイル\Actor\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\UI\UI.h">
+      <Filter>ソース ファイル\Actor\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Camera.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\imgui\imconfig.h">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\imgui\imgui.h">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\imgui\imgui_impl_glfw.h">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\imgui\imgui_impl_opengl3.h">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\imgui\imgui_internal.h">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\imgui\imstb_rectpack.h">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\imgui\imstb_textedit.h">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\imgui\imstb_truetype.h">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\UI\Image.h">
+      <Filter>ソース ファイル\Actor\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Shader\FramebufferObject.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Intersect.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\Operator\Enemy.h">
+      <Filter>ソース ファイル\Actor\Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\Operator\NonPlayerCharacter.h">
+      <Filter>ソース ファイル\Actor\Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\Operator\Player.h">
+      <Filter>ソース ファイル\Actor\Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Collision\Collision.h">
+      <Filter>ソース ファイル\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\StaticObject\House1.h">
+      <Filter>ソース ファイル\Actor\StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="House2.h" />
+    <ClInclude Include="Src\Actor\StaticObject\House2.h">
+      <Filter>ソース ファイル\Actor\StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="House3.h" />
+    <ClInclude Include="Src\Actor\StaticObject\House3.h">
+      <Filter>ソース ファイル\Actor\StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\StaticObject\House4.h">
+      <Filter>ソース ファイル\Actor\StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\StaticObject\House5.h">
+      <Filter>ソース ファイル\Actor\StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\StaticObject\House6.h">
+      <Filter>ソース ファイル\Actor\StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\StaticObject\House7.h">
+      <Filter>ソース ファイル\Actor\StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\StaticObject\House8.h">
+      <Filter>ソース ファイル\Actor\StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\Tutorial.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Audio\Audio.h">
+      <Filter>ソース ファイル\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Audio\BGM.h">
+      <Filter>ソース ファイル\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Audio\OpenGLGame_acf.h">
+      <Filter>ソース ファイル\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\Effect\Explosion.h">
+      <Filter>ソース ファイル\Actor\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\UI\Sprite.h">
+      <Filter>ソース ファイル\Actor\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\Operator\Enemy1.h">
+      <Filter>ソース ファイル\Actor\Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\Operator\Enemy2.h">
+      <Filter>ソース ファイル\Actor\Operator</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\Tree.tga">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Res\Bullet.tga">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Res\titleTest.tga">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Res\House.tga">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Res\RoadCloased.tga">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Res\iconEnemy.tga">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Res\Effects\Explosion.tga">
+      <Filter>ソース ファイル\Texture</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Res\Plane.obj">
+      <Filter>リソース ファイル</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
